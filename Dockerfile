@@ -16,8 +16,7 @@ RUN npm install
 # Copy the rest of the application code
 COPY . .
 
-# Give execute permission to the cron job scripts
-RUN chmod +x /app/duolingo.sh
+# Give execute permission to the cron job script
 RUN chmod +x /app/get-log.sh
 
 # Configure the cron
