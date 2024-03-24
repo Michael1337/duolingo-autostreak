@@ -1,0 +1,25 @@
+{
+  "name": "duolingo-autostreak",
+  "version": "1.0.0",
+  "description": "A dockerized node.js script to automatically keep your streak on Duolingo alive.",
+  "type": "module",
+  "main": "duolingo-run.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Michael1337/duolingo-autostreak.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Michael1337/duolingo-autostreak/issues"
+  },
+  "homepage": "https://github.com/Michael1337/duolingo-autostreak#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "node-fetch": "^3.3.2"
+  }
+}

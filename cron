@@ -1,0 +1,4 @@
+SHELL=/bin/bash
+15 */12 * * * cd /app && /usr/local/bin/node duolingo.js >> /var/log/cron.log
+# 30 0 * * * curl "https://gotify.domain.tld/message?token=YourAppToken" -F "title=Duolingo ($(date '+\%Y-\%m-\%d'))" -F "message=$(/app/get-log.sh)" -F "priority=$(/app/get-log.sh | grep -q 'alive' && echo 2 || echo 8)"
+0 0 * * 0 > /var/log/cron.log
